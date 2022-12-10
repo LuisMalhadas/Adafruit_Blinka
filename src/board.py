@@ -238,6 +238,9 @@ elif board_id == ap_board.ROCK_PI_4:
 elif board_id == ap_board.ROCK_PI_E:
     from adafruit_blinka.board.radxa.rockpie import *
 
+elif board_id == ap_board.ROCK_PI_4_C_PLUS:
+    from adafruit_blinka.board.radxa.rockpi4cplus import *
+
 elif board_id == ap_board.UDOO_X86:
     from adafruit_blinka.board.udoo_x86ultra import *
 
